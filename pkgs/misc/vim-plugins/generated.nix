@@ -1066,8 +1066,8 @@ let
     src = fetchFromGitHub {
       owner = "Shougo";
       repo = "denite.nvim";
-      rev = "89b55893b30f03a38e09a89dbc91cd3902b6c30c";
-      sha256 = "19vb7q615q9d15c0ik6ish0xnn4ihpzkmsx089k9s2k7425c6f55";
+      rev = "97aba3003140f4fc6919e60cd4527bf9743f9a21";
+      sha256 = "09183a3xdxfczrxn834wm8g6l4wkr5zr15bfw209ya6vk5gqribl";
     };
     meta.homepage = "https://github.com/Shougo/denite.nvim/";
   };
@@ -1293,12 +1293,12 @@ let
 
   deoplete-nvim = buildVimPluginFrom2Nix {
     pname = "deoplete-nvim";
-    version = "2020-06-02";
+    version = "2020-06-06";
     src = fetchFromGitHub {
       owner = "Shougo";
       repo = "deoplete.nvim";
-      rev = "921688d72168e436c82f3d413a5de7d78369a0c7";
-      sha256 = "01wpq4majnhh4lxmai0ix5dqvfxrbdsj2pic785x3kaqn4all31w";
+      rev = "a1bdd7b2b189168047999918d898238ab46b4a9e";
+      sha256 = "14mj4kl9prs6qxb6xqyf71r6rddczpcggyki7qxq2vjq6gnc1ix9";
     };
     meta.homepage = "https://github.com/Shougo/deoplete.nvim/";
   };
@@ -2601,6 +2601,18 @@ let
       sha256 = "07dx6qkxqpakl1hrqwhfjgdzcnl4j3j9qih0l20qn8p6askj3b2j";
     };
     meta.homepage = "https://github.com/neovim/nvimdev.nvim/";
+  };
+
+  oceanic-next = buildVimPluginFrom2Nix {
+    pname = "oceanic-next";
+    version = "2019-04-10";
+    src = fetchFromGitHub {
+      owner = "mhartington";
+      repo = "oceanic-next";
+      rev = "08158eec24cd154afd1623686aeb336fad580be7";
+      sha256 = "1s2h9mnhl54ww7zpdllwlxz93d5i7l7rx3s9mr8w6sv8azcak3v8";
+    };
+    meta.homepage = "https://github.com/mhartington/oceanic-next/";
   };
 
   onehalf = buildVimPluginFrom2Nix {
